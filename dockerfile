@@ -14,4 +14,4 @@ RUN npm --allow-root install
 COPY . ./
 
 # runtime configs
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["sh","./entrypoint.sh"]
